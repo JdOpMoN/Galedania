@@ -1,0 +1,42 @@
+body{
+background: url(nub.jpg) no-repeat 37% 60%; /*fondo de pagina, nubes*/
+margin: 0px;
+}
+
+table{
+position: absolute;
+left:20px;
+right:20px;
+bottom:20px;
+top:200px;
+}
+
+tr{
+position:relative;
+}
+
+td{
+border: #336699 double 3px;
+position: relative; /*para posicionarlo*/
+height:400px;
+width:400px;
+}
+
+.cubierta{
+display: none;
+position: absolute;
+left:0px;
+right:0px;
+top:0px;
+bottom:0px;
+}
+
+td:hover .cubierta{
+display: block;
+}
+
+.pintura {
+width: 100%;
+height: auto;
+}
+
